@@ -79,6 +79,7 @@ main{
     text-align: center;
     transform: translate(-50%, -50%);
     line-height: 50px;
+    letter-spacing: 5px;
     width:200px;
     font-family: "Zilla Slab", serif;
     font-size: 3rem;
