@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   height: 15vh;
+   width: 100vw;
+   background-color: darkslategray; 
+   
+}
+
+.main{
+    height: 70vh;
+    width:100vw; 
+}
+main{
+    width: 80vw;
+    height: 100%;
+    background-color: black;
+    margin: 0;
+    display:inline-block;
+}
+.left{
+    width: 10vw;
+    height: calc(100vh - 15vh);
+    background-color: lightgray;
+    float:left;
+}
+.right{
+    width: 10vw;
+    height: calc(100vh - 15vh);
+    background-color: lightgray;
+    float:right;
+}
+footer{
+    height: 15vh;
+    background-color: darkgray;
+    width: 100vw;
+}
